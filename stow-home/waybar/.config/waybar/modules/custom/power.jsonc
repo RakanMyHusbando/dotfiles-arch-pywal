@@ -1,0 +1,7 @@
+{
+    "custom/power": {
+        "format": "\u23fb",
+        "on-click": "nwg-bar",
+        "tooltip": false
+    },
+}

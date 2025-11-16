@@ -1,0 +1,8 @@
+{
+    "backlight": {
+        "format": "{icon}",
+        "min-brightness": 10,
+        "tooltip-format": "{percent}%",
+        "format-icons": [ "\udb80\udcde", "\udb80\udcdf", "\udb80\udcdd", "\udb80\udce0"]
+    }
+}

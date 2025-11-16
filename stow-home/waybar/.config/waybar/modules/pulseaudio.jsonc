@@ -1,0 +1,17 @@
+{
+    "pulseaudio": {
+        "format": "{icon}",
+        "on-click": "pavucontrol -t 3",
+        "tooltip-format": "{desc} - {volume}%",
+        "scroll-step": 5,
+        "format-muted": "\udb81\udf5f",
+        "format-icons": {
+            "headphone": "\uf025",
+            "headset": "\uee59",
+            "phone": "\uf10b",
+            "portable": "\udb83\udc91",
+            "car": "\uf1b9",
+            "default": ["\uf026", "\uf027", "\uf028"]
+        }
+    }
+}

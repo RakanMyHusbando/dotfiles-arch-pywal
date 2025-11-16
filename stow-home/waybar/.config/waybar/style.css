@@ -1,0 +1,154 @@
+@import "../../.cache/wal/colors-waybar.css";
+
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: JetBrainsMono Nerd Font;
+    font-weight: bold;
+    font-size: 13px;
+    min-height: 0;
+}
+
+#backlight,
+#battery,
+#clock,
+#custom-menu,
+#custom-power,
+#network,
+#pulseaudio,
+#hyprland-scratchpad,
+#hyprland-workspaces,
+#custom-screenkeyboard,
+#cpu,
+#memory,
+#bluetooth,
+#temperature,
+#custom-l_end,
+#custom-r_end,
+#custom-sl_end,
+#custom-sr_end,
+#custom-rl_end,
+#custom-rr_end,
+#tray,
+#waybar button {
+    color: @color6;
+    background: @background;
+    opacity: 1;
+    margin: 4px 0px 4px 0px;
+    min-width: 30px;
+    letter-spacing: 1px;
+    box-shadow: 
+        0 2px 0 0 @color6,
+        0 -2px 0 0 @color6;
+}
+
+#custom-power {
+    padding-right: 10px
+}
+
+#tray {
+    letter-spacing: -1px;
+}
+
+#memory {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#backlight:hover,
+#battery:hover,
+#clock:hover,
+#custom-menu:hover,
+#custom-power:hover,
+#network:hover,
+#pulseaudio:hover,
+#hyprland-scratchpad:hover,
+#hyprland-workspaces:hover,
+#cpu:hover,
+#memory:hover,
+#temperature:hover,
+#custom-screenkeyboard:hover,
+#tray:hover,
+#bluetooth:hover,
+#waybar button:hover {
+    color: @foreground;
+}
+
+#custom-l_end,
+#custom-r_end,
+#custom-sl_end,
+#custom-sr_end,
+#custom-rl_end,
+#custom-rr_end {
+    min-width: 10px;
+}
+
+window#waybar {
+    /* you can also GTK3 CSS functions! */
+    /*  background-color: shade(@base, 0.9);
+    border: 2px solid alpha(@crust, 0.3); */
+    background-color: transparent;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+#workspaces * {
+    min-width: 15px;
+}
+
+
+#workspaces button.focused,
+#workspaces button.active {
+    color: @foreground;
+    box-shadow:  
+        inset 0px -2px 0 0 @foreground,
+        0 -2px 0 0  @color6,
+        0 2px 0 0  @foreground;
+}
+
+#custom-r_end {
+    border-radius: 0px 21px 21px 0px;
+    margin-right: 9px;
+    box-shadow: 
+        0 2px 0 0 @color6,
+        0 -2px 0 0 @color6,
+        2px 0 0 0 @color6;
+    padding-right: 3px;
+}
+
+#custom-l_end {
+    border-radius: 21px 0px 0px 21px;
+    margin-left: 9px;
+    box-shadow: 
+        0 2px 0 0 @color6,
+        0 -2px 0 0 @color6,
+        -2px 0 0 0 @color6;
+    padding-left: 3px;
+}
+
+#custom-sr_end {
+    border-radius: 0px;
+    margin-right: 9px;
+    padding-right: 3px;
+}
+
+#custom-sl_end {
+    border-radius: 0px;
+    margin-left: 9px;
+    padding-left: 3px;
+}
+
+#custom-rr_end {
+    border-radius: 0px 7px 7px 0px;
+    margin-right: 9px;
+    padding-right: 3px;
+}
+
+#custom-rl_end {
+    border-radius: 7px 0px 0px 7px;
+    margin-left: 9px;
+    padding-left: 3px;
+}

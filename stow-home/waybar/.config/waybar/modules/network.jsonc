@@ -1,0 +1,10 @@
+{
+    "network": {
+        "format-wifi": "\uf1eb",
+        "format-ethernet": "\uef44",
+        "format-disconnected": " \udb80\udf19",
+        "tooltip-format-wifi": "{essid}\n{ipaddr}",
+        "tooltip-format-ethernet": "{ipaddr}",
+        "on-click": "nm-connection-editor"
+    }
+}

@@ -1,0 +1,51 @@
+[{
+    "reload_style_on_change": true,
+    "include": [
+        "$HOME/.config/waybar/modules/battery.jsonc",
+        "$HOME/.config/waybar/modules/clock.jsonc",
+        "$HOME/.config/waybar/modules/custom/end.jsonc", 
+        "$HOME/.config/waybar/modules/custom/power.jsonc",
+        "$HOME/.config/waybar/modules/pulseaudio.jsonc",
+        "$HOME/.config/waybar/modules/tray.jsonc",
+        "$HOME/.config/waybar/modules/hyprland/workspaces.jsonc",
+        "$HOME/.config/waybar/modules/backlight.jsonc",
+        "$HOME/.config/waybar/modules/network.jsonc",
+        "$HOME/.config/waybar/modules/cpu.jsonc",
+        "$HOME/.config/waybar/modules/memory.jsonc",
+        "$HOME/.config/waybar/modules/temperature.jsonc",
+        "$HOME/.config/waybar/modules/bluetooth.jsonc"
+    ],
+    "layer": "top",
+    "position": "top",
+    "modules-left": [
+        "hyprland/workspaces",
+        "custom/r_end",
+        "custom/padd",
+        "custom/l_end",
+        "cpu",
+        "memory",
+        "temperature",
+        "custom/r_end",
+        "custom/padd"
+    ],
+    "modules-center": [
+        "custom/padd",
+        "custom/l_end",
+        "clock",
+        "custom/r_end",
+        "custom/padd"
+    ],
+    "modules-right": [
+        "custom/padd",
+        "custom/l_end",
+        "tray",
+        "pulseaudio",
+        "backlight",
+        "battery",
+        "bluetooth",
+        "custom/r_end",
+        "custom/padd",
+        "custom/l_end",
+        "custom/power"
+    ]
+}]

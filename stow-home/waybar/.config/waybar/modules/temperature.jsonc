@@ -1,0 +1,9 @@
+{
+    "temperature": {
+        "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
+        "critical-threshold": 80,
+        "format-critical": "TEMPERATURE:{temperatureC}°C\uf071",
+        "format": "TEMPERATURE:{temperatureC}°C",
+	"on-click": "kitty -e htop"
+    }
+}

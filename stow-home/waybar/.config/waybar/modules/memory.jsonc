@@ -1,0 +1,6 @@
+{
+    "memory": {
+        "format": "RAM:{}%",
+        "on-click": "kitty -e htop"
+    }
+}
